@@ -1,3 +1,3 @@
 const getUserChoice = (userInput) => {
-
-} // user choice start of the gaome
+userInput = userInput.toLowerCase(); 
+} // user choice start of the gaome and  different capitalizations 
