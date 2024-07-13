@@ -19,3 +19,9 @@ const getComputerChoice = () => {
           return 'scissors';
     }
 }; // math.random and math fllor to get the whole number from 0 to 2; 
+
+const determineWinner = (userChoice, computerChoice) => {
+    if (userChoice === computerChoice) {
+        return 'This game is a tie!';
+    } /// tie condition 
+}; 
