@@ -56,6 +56,9 @@ const playGame = () => {
     const userChoice = getUserChoice('paper');
     const computerChoice = getComputerChoice();
     console.log('You threw: ' + userChoice);
-    console.log('The computer threw: ' + computerChoice);
-    }; // start the game and log results 
+    console.log('The computer threw: ' + computerChoice); // start the game and log results 
+    
+    console.log(determineWinner(userChoice, computerChoice));
+}; 
 
+playGame()
