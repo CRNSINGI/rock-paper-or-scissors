@@ -30,5 +30,15 @@ const determineWinner = (userChoice, computerChoice) => {
     } else { 
         return "Congratulations, you won!";
     } // not  a tie condition 
+    } 
+
+    if (userChoice === 'paper') {
+        if(computerChoice === 'scissors') {
+            return "Sorry, computer won!";
+        } else { 
+            return "Congratulations, you won!";
+        }
+
     }
+
     };
