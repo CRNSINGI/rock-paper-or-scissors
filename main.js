@@ -24,4 +24,11 @@ const determineWinner = (userChoice, computerChoice) => {
     if (userChoice === computerChoice) {
         return 'This game is a tie!';
     } /// tie condition 
-}; 
+    if (userChoice === 'rock') {
+        if(computerChoice === 'paper') {
+        return "Sorry, computer won";
+    } else { 
+        return "Congratulations, you won!";
+    } // not  a tie condition 
+    }
+    };
