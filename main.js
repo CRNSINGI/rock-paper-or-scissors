@@ -37,8 +37,16 @@ const determineWinner = (userChoice, computerChoice) => {
             return "Sorry, computer won!";
         } else { 
             return "Congratulations, you won!";
-        }
+        } //user choice 
 
+    }
+    
+    if (userChoice === 'scissors') {
+        if (computerChoice === 'rock') {
+            return "Sorry, computer won!";
+        } else {
+            return "Congratulations, you won";
+        } // user choice 2 
     }
 
     };
